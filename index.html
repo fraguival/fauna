@@ -14,16 +14,17 @@
 
         <header class="header">
             
-           <h1>Aves</h1>
-           <input type="checkbox" id="barra">
-           <label for="barra"><img src="img/menu.png"></label>
+           <h1 class="header__titulo">Aves</h1>
 
-           <nav class="menu">
-              <ul>
-                  <li><a href="#">Principal</a></li>
-                  <li><a href="#">Fotos</a></li>
-                  <li><a href="#">Videos</a></li>
-                  <li><a href="#">Contacto</a></li>
+           <input type="checkbox" id="barra">
+           <label for="barra"><img class="header__img" src="img/menu.png"></label>
+
+           <nav class="nav">
+              <ul class="menu">
+                  <li class="menu__li"><a class="menu__a" href="#">Principal</a></li>
+                  <li class="menu__li"><a class="menu__a" href="#">Fotos</a></li>
+                  <li class="menu__li"><a class="menu__a" href="#">Videos</a></li>
+                  <li class="menu__li"><a class="menu__a" href="#">Contacto</a></li>
               </ul>
            </nav>
         
@@ -31,45 +32,44 @@
 
         <main>
             <section class="articulos">
-                <article>
-                    <time datetime="2020-12-23" Pubdate>
-                       <div class="numero-dia">23</div>
-                       <div class="nombre-dia">Viernes</div>
+
+                <article class="articulo">
+                    <time class="articulo__fecha" datetime="2020-12-23" Pubdate>
+                       <div class="articulo__numero-dia">23</div>
+                       <div class="articulo__nombre-dia">Viernes</div>
                     </time>
-                    <h1>Kiki</h1>
-                    <p>un gallo muy jugado</p>
-                    <figure>
-                        <img src="img/gallo.jpg">
-                    </figure>
+                    <h1 class="articulo__titulo">Kiki</h1>
+                    <p class="articulo__texto">un gallo muy jugado</p>
+                    <img class="articulo__img" src="img/gallo.jpg">
                 </article>
     
-                 <article>
-                    <time datetime="2020-12-6" Pubdate>
-                        <div class="numero-dia">6</div>
+                <article>
+                    <time class="articulo__fecha" datetime="2020-12-6" Pubdate>
+                        <div class="articulo__numero-dia">6</div>
                         <div class="nombre-dia">Martes</div>
                     </time>
-                    <h1>Colibri</h1>
-                    <p>un plebe viejon</p>
-                    <figure>
-                        <img src="img/plebe.jpg">
-                    </figure>
-                </article>
+                    <h1 class="articulo__titulo">Colibri</h1>
+                    <p class="articulo__texto">un plebe viejon</p>
+                    <img class="articulo__img" src="img/plebe.jpg">
+                    </article>
+
             </section>
     
             <aside class="info">
-                <h1>Informacion Personal</h1>
-                <p class="uno">Cita Articulo Uno </p>
-                <p class="dos">Cita Articulo Dos</p>
+                <h1 class="info__titulo">Informacion Personal</h1>
+                <p class="info__uno">Cita Articulo Uno </p>
+                <p class="info__dos">Cita Articulo Dos</p>
             </aside>
+
         </main>
     
         <footer class="footer">
             <section class="foot">
-                 <address>Culiacan, Sinaloa</address>
+                 <address class="foot__direccion">Culiacan, Sinaloa</address>
             </section>
 
             <sction class="foot">
-                <img src="img/g-6.png">
+                <img class="foot__img" src="img/g-6.png">
             </sction>
         </footer>
         
